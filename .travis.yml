@@ -9,4 +9,4 @@ xcode_scheme: iTodoTests
 xcode_sdk: iphonesimulator8.3
 
 script:
- - xcodebuild test -project iTodo.xcodeproj -scheme iTodoTests
+ - xcodebuild -project iTodo.xcodeproj -scheme iTodoTests
