@@ -7,4 +7,3 @@ osx_image: xcode8.1
 xcode_project: iTodo.xcodeproj
 
 script:
- - xcodebuild -project iTodo.xcodeproj
