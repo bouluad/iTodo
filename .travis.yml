@@ -5,5 +5,3 @@ branches:
 
 osx_image: xcode8.1
 xcode_project: iTodo.xcodeproj
-
-script:
