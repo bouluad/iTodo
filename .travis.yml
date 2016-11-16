@@ -1,2 +1,12 @@
 language: swift
+branches:
+  only:
+    - master
+
 osx_image: xcode8.1
+xcode_project: iTodo.xcodeproj
+xcode_scheme: iTodoTests
+xcode_sdk: iphonesimulator8.3
+
+script:
+ - xcodebuild test -project iTodo.xcodeproj -scheme iTodoTests
