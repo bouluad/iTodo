@@ -5,8 +5,6 @@ branches:
 
 osx_image: xcode8.1
 xcode_project: iTodo.xcodeproj
-xcode_scheme: iTodoTests
-xcode_sdk: iphonesimulator8.3
 
 script:
- - xcodebuild -project iTodo.xcodeproj -scheme iTodoTests
+ - xcodebuild -project iTodo.xcodeproj
